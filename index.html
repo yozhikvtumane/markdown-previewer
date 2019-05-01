@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>.MD | markdown previewer | Online tool to edit your Markdown text</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="left">
+        <header class="input-header">
+            <h2 class="logo">.MD</h2>
+        </header>
+        <textarea id="editor" placeholder="Type your .md text here"></textarea>
+    </div>
+    <div id="resizer"></div>
+    <div class="right">
+        <h3 class="md-header">Output</h3>
+        <div class="content" id="preview"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
