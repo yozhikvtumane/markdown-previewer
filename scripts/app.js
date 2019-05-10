@@ -19,7 +19,7 @@ This is a simple text
 
 ![Image](https://picsum.photos/200/200)  
 
-Two spaces and return in the end of the line will make a line brake  
+Two spaces and return in the end of the line will make a line break  
 
 #### Inline code:
 To find the length of a string, access its \`length\` property:
